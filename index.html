@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Music Player | Gulshanoy</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css" integrity="sha512-1ycn6IcaQQ40/MKBW2W4Rhis/DbILU74C1vSrLJxCq57o941Ym01SwNsOMqvEBFlcgUa6xLiPY/NS5R+E6ztJQ==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container" id="container">
+
+        <h1 id="title">JONY - Пустота</h1>
+
+        <div class="image-container">
+            <img src="images/JONY - Пустота.jpg" id="img">
+        </div>
+
+        <audio src="songs/JONY - Пустота.mp3" id="audio"></audio>
+
+        <form">
+            <div class="form-element"> 
+                <div id="rangevalue">50</div>
+                <input type="range" min="0" max="100" value="50" step="1" id="range" oninput="rangevalue.textContent = this.value">
+            </div>
+        </form>
+
+        <div class="time">
+            <span id="start">00:00</span>
+            <span id="end">00:00</span>
+        </div>
+
+        <div class="progress-container" id="progress-container">
+            <div class="progress" id="progress"></div>
+        </div>
+
+        <nav>
+            <button class="btn" id="prev">
+                <i class="fas fa-backward"></i>
+            </button>
+            <button class="btn big" id="play">
+                <i class="fas fa-play"></i>
+            </button>
+            <button class="btn" id="next">
+                <i class="fas fa-forward"></i>
+            </button>
+        </nav>
+
+    </div>
+
+    <!--JS-->
+    <script src="app.js"></script>
+</body>
+</html>
