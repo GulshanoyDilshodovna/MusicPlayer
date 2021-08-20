@@ -18,6 +18,7 @@ body{
     display: flex;
     align-items: center;
     justify-content: center;
+    overflow-y: hidden;
 }
 .container{
     background: url('https://source.unsplash.com/1200x600/?sky');
