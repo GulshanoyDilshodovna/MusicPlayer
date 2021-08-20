@@ -32,6 +32,8 @@ body{
     border-radius: 1rem;
     padding: 2rem;
     position: relative;
+    overflow-y: hidden;
+
 }
 #title{
     font-weight: 200;
