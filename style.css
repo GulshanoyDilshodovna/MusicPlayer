@@ -9,7 +9,7 @@
 --bgcolor: #7DF9FF;
 }
 body{
-    background: url('https:source.unsplash.com/1200x900/?cloud');
+    background: url('https://source.unsplash.com/1200x900/?cloud');
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
@@ -19,7 +19,7 @@ body{
     justify-content: center;
 }
 .container{
-    background: url('https:source.unsplash.com/1200x600/?sky');
+    background: url('https://source.unsplash.com/1200x600/?sky');
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
